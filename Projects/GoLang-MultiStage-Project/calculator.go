@@ -65,7 +65,7 @@ func main() {
 			}
 			result = left / right
 		default:
-			fmt.Println("Invalid operator")
+			fmt.Println("Invalid operator. Use +, -, *, or /")
 			continue
 		}
 
